@@ -1,0 +1,37 @@
+.header > div {
+  z-index: 0;
+  background-color: black;
+}
+
+.title h1 {
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.menu { 
+  margin-top: 5px;
+  background-color: #F89920;
+}
+
+.icon-menu {
+  display: none;
+  background-color: #F89920;
+}
+
+@media (max-width: 750px) {
+  .menu {
+    display: none;
+    background-color: #F89920;
+  }
+
+  .icon-menu {
+    display: block;
+    background-color: #F89920;
+  }
+}
+.title{
+  background-color: #F89920;
+}
+.header{
+  background-color: #F89920;
+}
