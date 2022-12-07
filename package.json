@@ -18,9 +18,9 @@
     "heroku-postbuild": "npm run install:client && npm run build"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.20.1",
     "concurrently": "^3.5.1",
-    "express": "^4.16.2",
+    "express": "^4.18.2",
     "express-session": "^1.15.6",
     "mongoose": "^5.5.12",
     "passport": "^0.4.0",
